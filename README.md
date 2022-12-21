@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The goal behind this project is to take a practical and grounded look at popular tree based algorithms and to review how they perform on real world data. There were some important concessions made to accomdate computational limitations. The original dataset contained over 3 million observations, and when categorical variables were transformed via one-hot encoding the resulting dataframe exceeded available memory. Bayesian optimization was also limited to 128 trials due to the significant time needed to cross validate complex GBDT models. Access to additional compute resources, or utilizing embeddings to convert categorical variables to high dimensional vectors are two avenues of improving upon the scope of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -35,20 +35,29 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-detail computational constraints in hyperopt param finding
+A description of repo files are below:
+
+* bakeoff.ipynb
+  -  Jupyter notebook containing code to clean/transform data, train/optimize/visualize models, compare model RMSE values as a metric of accuracy.
+  -  Note that blocks containing hyperparameter optimization are commented as trial results are imported as csv files produced from cloud training sessions. If there is a desire to run the hyperopt blocks locally, uncomment the code and run the appropriate cells. Parameter finding may take 12+ hours for the more complex GBDT models.
+
+* csv_files
+  - holiday_events.csv : a list of regional/local/national holidays and dates
+  - oil.csv : national oil export data
+  - stores.csv : locations and store numbers
+  - target.csv : sales amount (response variable)
+  - train.csv : training data
+  - transactions.csv : contains product categories and information on promotional sales
+  - lgb_trials_df.csv, xgb_trials_df.csv, rf_trials_df.csv : exported csv files containing hyperparamter optimization trial values from cloud sessions
 
 ### Prerequisites
 
-list libraries utilized
-* pip
-  ```sh
-  pip install ~~~~
-  ```
+Outside of standard popular DS libraries (matplotlib, seaborn, pandas, numpy, scikit-learn), this notebook also utilizes hyperopt for Bayesian optimization as well as XGBoost and LightGBM for their distinct approaches to building GBDT models.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-list advantages of lightgbm
+This project was designed to develop a more practical understanding of the advantages of different tree based models on tabular data, but may not be widely applicable to all use cases. The bayesian optimization portion of the notebook code has high reproducibility, but other sections will require tuning according to the context and purpose of the project. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,9 +68,5 @@ list advantages of lightgbm
 Paul Song - songpaul8@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/songpaul8/dt_algo_bakeoff)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
