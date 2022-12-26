@@ -22,11 +22,15 @@ The goal behind this project is to take a practical and grounded look at popular
 
 ### Built With
 
-* [![Python](https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-* [<img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" width="100" height='100'/>](https://seaborn.pydata.org/)
-* [<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="100" height='100'/>](https://scikit-learn.org/stable/)
-* [<img src="https://miro.medium.com/max/720/1*yhE3CBwTrlXcAIvNJNTQiA.webp" width="150" height='100'/>](https://xgboost.readthedocs.io/en/stable/)
-* [<img src="https://raw.githubusercontent.com/microsoft/LightGBM/a17489328c4f81819b5a4131c9a386b09b90b04f/docs/logo/LightGBM_logo_black_text.svg" width="150" height='100'/>](https://lightgbm.readthedocs.io/en/v3.3.2/)
+[![Python](https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+[<img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" width="100" height='100'/>](https://seaborn.pydata.org/)
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="100" height='100'/>](https://scikit-learn.org/stable/)
+
+[<img src="https://miro.medium.com/max/720/1*yhE3CBwTrlXcAIvNJNTQiA.webp" width="150" height='100'/>](https://xgboost.readthedocs.io/en/stable/)
+
+[<img src="https://raw.githubusercontent.com/microsoft/LightGBM/a17489328c4f81819b5a4131c9a386b09b90b04f/docs/logo/LightGBM_logo_black_text.svg" width="150" height='100'/>](https://lightgbm.readthedocs.io/en/v3.3.2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
