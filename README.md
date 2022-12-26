@@ -41,7 +41,7 @@ A description of repo files are below:
   -  Jupyter notebook containing code to clean/transform data, train/optimize/visualize models, compare model RMSE values as a metric of accuracy.
   -  Note that blocks containing hyperparameter optimization are commented as trial results are imported as csv files produced from cloud training sessions. If there is a desire to run the hyperopt blocks locally, uncomment the code and run the appropriate cells. Parameter finding may take 12+ hours for the more complex GBDT models.
 
-* csv_files
+* csv_files.zip : **extract csv files and place them in the same directory as bakeoff.ipynb before running the notebook**
   - holiday_events.csv : a list of regional/local/national holidays and dates
   - oil.csv : national oil export data
   - stores.csv : locations and store numbers
